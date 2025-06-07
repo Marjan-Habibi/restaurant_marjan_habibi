@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our All Food</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>marjanhabibi.NoshHub</title>
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <script src="script.js" defer></script>
+  
+  <style>
+   body {
+  background-color: #FDFBEE;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+    header {
+  background-color: #7C4585;
+  color: white;
+  padding: 14px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* بالاتر از همه قرار بگیره */
+}
+
+    .nav-bar{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    gap: 2rem;
+      }
+      
+        .nav-bar a {
+         color: #7C4585;
+         list-style: none;
+         text-decoration: none;
+         font-weight: bold;
+         transition: color 0.3s ease;
+    }
+    .sushi-section {
+      background-image: url('https://pekis.net/sites/default/files/styles/wide/public/2025-02/nigiri.jpg?itok=s34-JKoE');
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .sushi-image {
+    flex: 1 1 300px;
+    max-width: 400px;
+  }
+
+  .sushi-image img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .sushi-content {
+  background-color: rgba(255, 255, 255, 0.7); /* سفید نیمه شفاف */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+  color: #000; /* متن سیاه چون زمینه روشنه */
+}
+
+
+  .sushi-content h3 {
+    margin-top: 0;
+  }
+
+  .sushi-content ul {
+    padding-left: 20px;
+  }
+  .borscht-section {
+  background-image: url('https://www.ful-filled.com/wp-content/uploads/2021/01/DSC_3049-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px; /* فاصله بالا پایین برای زیبایی */
+}
+.caka-section{
+background-image: url('https://www.allrecipes.com/thmb/NopD83PuxK5jznKvba9f8_0Zu6g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9954-french-butter-cakes-madeleines-DDMFS-4x3-8bf6b33a73ae4607b0b06d58a9319ed6.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 3rem;
+}
+.sancks-section {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://omghitched.com/wp-content/uploads/2024/05/v2-bpaq4-delrt.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 3rem;
+    }
+    /* footer */
+.footer {
+  background-color: #7C4585;
+  color:white;
+  padding: 2rem 1rem 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.footer-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.footer-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  max-width: 900px;
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer-content p {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .social-icons {
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Recipe Book</h1>
+  <p> Your go-to place for the best recip!</p>
+  <nav class="nav-bar">
+    <a href="index.html"class="button-link">Home</a>
+   <a href="about us.html"class="button-link">About Us</a>
+</nav>
+  </header>
+   <!-- <navigation Menu /navigation> -->
+
+  <section class="sushi-section">
+    <div class="sushi-image">
+      <img src="https://pekis.net/sites/default/files/styles/wide/public/2025-02/nigiri.jpg?itok=s34-JKoE" alt="Sushi - Nigiri" />
+    </div>
+  
+    <div class="sushi-content">
+      <h3>Sushi</h3>
+      <p>
+        Sushi is a traditional Japanese dish made with vinegared rice and a variety of ingredients like raw fish, vegetables,
+        and sometimes tropical fruits. It originated in Japan as a way to preserve fish and has evolved into a refined culinary
+        art. Common forms include nigiri (fish on rice) and maki (fish and rice wrapped in seaweed). Sushi is often served
+        with soy sauce, wasabi, and pickled ginger. Its appeal lies in its fresh ingredients, simplicity, and health benefits, such
+        as being high in protein and low in fat. Sushi is not just food; it’s a cultural experience cherished worldwide.
+      </p>
+      <hr>
+      <ul>
+        <li>Rinse 2 cups of sushi rice under cold water and cook it. Mix 1/4 cup rice vinegar, 2 tbsp sugar, and 1 tsp salt, then stir into the rice once cooked.</li>
+        <li>Slice fresh fish and vegetables (like cucumber, avocado, and carrots) into thin strips.</li>
+        <li>Place a bamboo mat on a clean surface, and lay a sheet of nori (shiny side down) on it.</li>
+        <li>Wet your hands and spread a thin layer of rice evenly over the nori, leaving about 1 inch at the top edge free of rice.</li>
+        <li>Place fish and vegetable strips in the center, then roll the sushi tightly using the bamboo mat.</li>
+        <li>Slice the roll into bite-sized pieces with a sharp knife, then serve with soy sauce, wasabi, and pickled ginger.</li>
+      </ul>
+      <a href="https://github.com/Marjan-Habibi">View more</a>
+    </div>
+  </section>
+
+  <section class="borscht-section">
+    <div class="sushi-image">
+      <img src="https://www.ful-filled.com/wp-content/uploads/2021/01/DSC_3049-1.jpg" alt="Borscht">
+    </div>
+  
+    <div class="sushi-content">
+  <h3>Borscht</h3>
+  <p>Borscht is a traditional Eastern European soup, most famously associated with Russia and Ukraine. Its rich red color<br> comes from its main ingredient—beets—giving it a unique appearance and earthy flavor. The soup is usually made <br>with beef or pork broth, combined with vegetables such as cabbage, potatoes, carrots, onions, and of course, beets.<br>
+
+    There are many variations of borscht, including hot and cold versions, with or without meat. recipes also include<br> tomatoes, beans, or garlic to enhance the taste.</p>
+    <hr>
+    <ul>
+  <li>Start by making Borscht broth with beef or pork, boiling the meat until tender.</li>
+  <li>While the meat cooks, peel and chop vegetables like beets, carrots, and onions.</li>
+  <li>In a separate pan, sauté the vegetables with some oil until softened.</li>
+  <li>Add the sautéed vegetables to the broth along with cabbage and simmer until all ingredients are tender.</li>
+  <li>Stir in some tomato paste, garlic, vinegar, and sugar to balance the flavors.</li>
+  <li>Serve the Borscht hot, garnished with a dollop of sour cream and fresh dill.</li><br>
+ </ul>
+ <a href="https://github.com/Marjan-Habibi">View more</a>
+  </div>
+  </section>
+  <section class="caka-section">
+    <div class="sushi-image">
+      <img src="https://www.allrecipes.com/thmb/NopD83PuxK5jznKvba9f8_0Zu6g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9954-french-butter-cakes-madeleines-DDMFS-4x3-8bf6b33a73ae4607b0b06d58a9319ed6.jpg" alt="Madeleine Cake" width="500">
+    </div>
+  
+    <div class="sushi-content">
+    <h3>Madeleine Caka</h3>
+    <p>Madeleine is a small, shell-shaped cake that is a true classic of French pastry. Originating from the Lorraine region of<br> France, these delicate, buttery cakes are often enjoyed with a cup of tea or coffee. Their distinctive shape and soft,<br> spongy texture make them a favorite in French bakeries and cafés.
+    Madeleine cakes are known for their rich, buttery flavor,<br> with hints of vanilla and lemon zest. The batter is simple but creates a delicious, moist cake with a slight crispness at the<br> edges. They are often served dusted with powdered sugar, adding a touch of elegance to their presentation.</p>
+    <hr>
+    <ul>
+    <li>Preheat oven to 375°F (190°C) and grease a Madeleine pan.</li>
+    <li>Mix dry ingredients: In a bowl, sift the flour, baking powder, and salt.</li>
+    <li>Beat the eggs and sugar: In another bowl, beat the eggs and sugar until fluffy and pale.</li>
+    <li>Add melted butter and vanilla: Stir in the melted butter, vanilla extract, and lemon zest.</li>
+    <li>Combine: Gradually fold in the dry ingredients to the wet mixture until smooth.</li>
+    <li>Fill the pan: Spoon the batter into the Madeleine molds, filling each one about 2/3 full.</li>
+    <li>Bake for 10-12 minutes, or until golden and slightly firm to the touch.</li>
+    <li>Cool and serve: Let the Madeleines cool before removing them from the pan and dusting with powdered sugar.</li><br>
+    </ul>
+    <a href="https://github.com/Marjan-Habibi">View more</a>
+    </div>
+    </section>
+    
+    <section class="sancks-section">
+      <div class="sushi-image">
+        <img src="https://omghitched.com/wp-content/uploads/2024/05/v2-bpaq4-delrt.jpg" alt="میز تنقلات عروسی" style="width:100%; max-width:600px;">
+      </div>
+    
+      <div class="sushi-content">
+    <h3>Sancks</h3>
+    <p>Cheese garlic bread is a classic snack loved by people of all ages. Crispy on the outside, soft and cheesy on the inside – it’s perfect for tea time, parties, or simply as a delicious side with soup or pasta.
+      In the world of snacking, cheese garlic bread holds a special place. It doesn’t require expensive ingredients, and you can make it in minutes.</p>
+     <hr>
+    <ul>
+    <li>Preheat the oven to 180°C (350°F) and line a baking tray.</li>
+    <li>Cut the bread into slices or halves, depending on how you like it served.</li>
+    <li>Mix the butter and garlic together, then spread it over each piece of bread.</li>
+    <li>Sprinkle the grated cheese generously on top of the garlic butter.</li>
+    <li>Bake the bread for 10–12 minutes, or until the cheese is melted and bubbly.</li>
+    <li> Garnish with parsley and serve warm. Enjoy the crunchy, cheesy delight!</li><br>
+  </ul>
+  <a href="https://github.com/Marjan-Habibi">View more</a>
+</div>
+</section>
+
+ <!-- Contact Section -->
+ <footer class="footer">
+  <div class="footer-content">
+    <h2>Contact Me</h2>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/marjan_habibi90?igsh=MWVkcnhzMnYyNWM4bQ%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://x.com/marjanhabibi90?s=21" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/marjan-habibi-80543a356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/Marjan-Habibi" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://t.me/marjan_habibi_web" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+      <a href="mailto:marjanhabibi875@gmail.com"><i class="fas fa-envelope"></i></a></div>
+    </div>
+  </div>
+<!-- <footer> -->
+  <div class="footer-bottom">
+    <p>© 2025 Marjan Habibi. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const header = document.querySelector("header");
+    const space = document.createElement("div");
+    space.style.height = header.offsetHeight + "px";
+    document.body.insertBefore(space, header.nextSibling);
+  });
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marjan</title>
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <script src="script.js" defer></script>
+    
+    <style>
+body{
+   background-color: #fff9f5;
+   color: white;
+   padding: 0;
+   margin: 0;
+}
+header{
+   background-color: #FF9898;
+   padding: 14px;
+   text-align: center;
+}        
+.nav-bar{
+   background-color: white;
+   color: black;
+   padding: 8px;
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   list-style: none;
+   gap: 2rem;
+ }
+.nav-bar a {
+   color: #FF9898;
+   list-style: none;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+section{
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #fff9f5;
+    color: #FF9898;
+    padding: 50px;
+    border: none;
+    border-radius: 4px solid black;
+    display: flex;
+    justify-content: center;
+}
+.container h2{
+    color: black;
+}
+section .images{
+    background-color: #fff9f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imga{
+   background-color: #FF9898;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   padding: 20px;
+   margin-top: 30px;
+   border-radius: 5px;
+}
+.recipe-section{
+  background-color: #FF9898;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+.recipe-section h2{
+ color: black;
+}
+ /* footer */
+.footer {
+  background-color: #fff9f5;
+  color: #FF9898;
+  padding: 2rem 1rem 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #FF9898;
+}
+
+.footer-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #FF9898;
+}
+
+.footer-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  color: #FF9898;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icons a {
+  color: #FF9898;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  max-width: 900px;
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #FF9898;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer-content p {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .social-icons {
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  section {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .imga {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imga img,
+  .recipe-section img {
+    width: 90%;
+    height: auto;
+  }
+
+  .recipe-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .recipe-section p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marjan's Secret Kitchen</h1>
+        <p>Where every recipe tells a delicious story</p>
+    </header>
+     <!-- <navigation Menu /navigation> -->
+        <nav class="nav-bar">
+        
+                <a href="index.html"class="button-link">Home</a>
+            
+                <a href="about us.html"class="button-link">About Us </a>
+        </nav>
+                <!-- <welcome text></welcome> -->
+                 <section>
+                    <div class="container">
+                    <h2>Welcome to Marjan's Restaurant</h2><br>
+                    <p>At Marjan Restaurant, we offer you a unique experience of exquisite flavors and delightful moments. 
+                        From local <br> traditional dishes to special international desserts, every meal served here is prepared 
+                        with the finest ingredients<br> and great attention to detail. Our goal is to provide you with a delightful 
+                        and healthy experience that will be  <br> memorable in every bite. 
+                        We eagerly look forward to welcoming you to Marjan Restaurant!</p>
+                    </div>
+                    </section>
+                    <section class="images">
+                        <div class="imga">
+                            <img width="400" src="https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg" alt="Restaurant" />
+                            <img width="400" src="https://www.misedesigns.com/wp-content/uploads/2016/11/italian-restaurant-kitchen-design.jpg" alt="food">
+                        </div>
+                    </section>
+        <!-- <section2> -->
+          <div class="recipe-section">
+            <p>Quinoa is a highly nutritious foreign dish that is packed with protein, fiber, and B vitamins.
+                 It’s also rich in important<br> minerals like iron, magnesium, and potassium. Quinoa is a great optio
+                 n for those looking for a gluten-free, healthy <br>food with high nutritional value.
+                 Whether you’re looking to improve your diet or need a filling and nutritious meal,<br> 
+                 quinoa is an excellent choice!</p>
+                 <img width="500" src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg" alt="Restaurant" />
+                  </div>
+                   <!-- Contact Section -->
+ <footer class="footer">
+    <div class="footer-content">
+      <h2>Contact Me</h2>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/marjan_habibi90?igsh=MWVkcnhzMnYyNWM4bQ%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/marjanhabibi90?s=21" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/marjan-habibi-80543a356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Marjan-Habibi" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/marjan_habibi_web" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+        <a href="mailto:marjanhabibi875@gmail.com"><i class="fas fa-envelope"></i></a></div>
+      </div>
+    </div>
+  <!-- <footer> -->
+    <div class="footer-bottom">
+      <p>© 2025 Marjan Habibi. All rights reserved.</p>
+    </div>
+                  
+</body>
+</html>
